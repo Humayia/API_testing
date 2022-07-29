@@ -1,0 +1,56 @@
+{
+	"info": {
+		"_postman_id": "000e62c5-da37-44bd-aa58-01a60d5c12bc",
+		"name": "covid-19",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21689536"
+	},
+	"item": [
+		{
+			"name": "Covid-19 Cases",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://corona-virus-stats.herokuapp.com/api/v1/cases/general-stats",
+					"protocol": "https",
+					"host": [
+						"corona-virus-stats",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"v1",
+						"cases",
+						"general-stats"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Covid-19 country states",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://corona-virus-stats.herokuapp.com/api/v1/cases/countries-search",
+					"protocol": "https",
+					"host": [
+						"corona-virus-stats",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"v1",
+						"cases",
+						"countries-search"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
